@@ -18,6 +18,7 @@ public class ListController extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		out.println("<h1>List Page</h1><hr>");
+		out.println("<p>리스트 페이지입니다.</p>");
 	}
 
 }
